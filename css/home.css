@@ -1,0 +1,112 @@
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+.contact-left, .contact-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.email > p, .time > p, .phone > p {
+    line-height: 30px;
+    font-size: 14px;
+    color: #666666D9;
+}
+
+.email, .time, .phone {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.email > img, .time > img, .phone > img {
+    height: 30px;
+    width: 18px;
+}
+
+.contact {
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-right > a > img {
+    width: 18px;
+    height: 30px;
+    margin: 0 5px;
+}
+
+.logo {
+    width: 168;
+    height: 76px;
+}
+
+.search {
+    border: 1px solid #99ca08;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.search > input {
+    width: 392px;
+    height: 38px;
+    border: none;
+    outline: none;
+    border: 10px;
+}
+
+.search > button {
+    background-color: #99ca08;
+    border: none;
+    position: relative;
+    top: -3px;
+}
+
+.nav-bar {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shopping, .login {
+    height: 32px;
+    width: 105px;
+    margin-left: 10px;
+}
+
+.shopping > p, .login > p {
+    text-align: center;
+    line-height: 15px;
+}
+
+.bg-black {
+    background-color: #000;
+    padding: 0 90px;
+}
+
+.click {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ccc;
+    width: 220px;
+    height: 50px;
+    text-align: center;
+    line-height: 35px;
+    bottom: 0;
+}
+
+.click:hover {
+    background-color: #99ca08;
+    transition: .5s ease-in-out;
+}
+
+.login {
+    width: fit-content;
+}
+
+.card {
+    cursor: pointer;
+}
